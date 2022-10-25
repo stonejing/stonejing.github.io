@@ -5,6 +5,16 @@
     <link>http://localhost:1313/</link>
     <description>Recent content on stonejingのdigital library</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 25 Oct 2022 10:20:13 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/post/hello-world/</link>
+      <pubDate>Tue, 25 Oct 2022 10:20:13 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/hello-world/</guid>
+      <description>This is another new start of the blog. I have too much input while did not make any output, it is a not good for personal improvment.</description>
+    </item>
+    
   </channel>
 </rss>
