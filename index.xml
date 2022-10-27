@@ -13,7 +13,8 @@
       <pubDate>Tue, 25 Oct 2022 10:20:13 +0900</pubDate>
       
       <guid>http://localhost:1313/post/hello-world/</guid>
-      <description>This is another new start of the blog. I have too much input while did not make any output, it is a not good for personal improvment.</description>
+      <description>This is another new start of the blog. I have too much input while did not make any output, it is a not good for personal improvment.
+1 2 3 4 5 6 7 8  #include &amp;lt;iostream&amp;gt; using namespace std; int main(void) { cout &amp;lt;&amp;lt; &amp;#34;hello world.&amp;#34; &amp;lt;&amp;lt; endl; }   I do not like you in the end.</description>
     </item>
     
   </channel>
