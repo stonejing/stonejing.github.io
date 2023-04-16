@@ -6,7 +6,18 @@
     <description>Recent content on stonejingのdigital library</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Oct 2022 10:20:13 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Apr 2023 15:53:14 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Configure Hugo for Github</title>
+      <link>http://localhost:1313/post/how-to-configure-hugo-for-github/</link>
+      <pubDate>Sun, 16 Apr 2023 15:53:14 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/how-to-configure-hugo-for-github/</guid>
+      <description>如何使用 Hugo 和 Github Pages 配置个人静态博客 这是一个别的地方的链接，防止自己很长时间不碰博客内容，然后忘记怎么配置 hugo 和 github。
+vercel 也是另一个可以轻量化直接配置个人网站的地方。
+https://zhuanlan.zhihu.com/p/57361697 https://zhuanlan.zhihu.com/p/417259374</description>
+    </item>
+    
     <item>
       <title>Hello World</title>
       <link>http://localhost:1313/post/hello-world/</link>
@@ -14,7 +25,7 @@
       
       <guid>http://localhost:1313/post/hello-world/</guid>
       <description>This is another new start of the blog. I have too much input while did not make any output, it is a not good for personal improvment.
-1 2 3 4 5 6 7 8  #include &amp;lt;iostream&amp;gt; using namespace std; int main(void) { cout &amp;lt;&amp;lt; &amp;#34;hello world.&amp;#34; &amp;lt;&amp;lt; endl; }   I do not like you in the end.</description>
+1 2 3 4 5 6 7 8 #include &amp;lt;iostream&amp;gt; using namespace std; int main(void) { cout &amp;lt;&amp;lt; &amp;#34;hello world.&amp;#34; &amp;lt;&amp;lt; endl; } I do not like you in the end.</description>
     </item>
     
   </channel>

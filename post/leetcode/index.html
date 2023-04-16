@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title> - Even - A super concise theme for Hugo</title>
+  <title>Leetcode - stonejingのdigital library</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,16 +16,16 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="olOwOlo" /><meta name="description" content="1. data structure 208 prefix tree
+<meta name="author" content="stonejing" /><meta name="description" content="1. data structure 208 prefix tree 211 design add and search data structure very suitable for string find and match, the only question is space complexity. another question is regular match is not suitable for it. the last one is it can be optimized for repeat one?
 2. graph 2.1 topological order 210 change the problem to graph representation, then use topological sort solve the problem.
- title: &amp;ldquo;Leetcode&amp;rdquo; date: 2022-10-25T17:51:46&#43;09:00 draft: true " /><meta name="keywords" content="Hugo, theme, even" />
+2.2 depth first search 2." /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.82.1 with theme even" />
+<meta name="generator" content="Hugo 0.92.2 with theme even" />
 
 
 <link rel="canonical" href="http://localhost:1313/post/leetcode/" />
@@ -37,30 +37,30 @@
 
 
 
-<link href="/sass/main.min.b5a744db6de49a86cadafb3b70f555ab443f83c307a483402259e94726b045ff.css" rel="stylesheet">
+<link href="/sass/main.min.f92fd13721ddf72129410fd8250e73152cc6f2438082b6c0208dc24ee7c13fc4.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="" />
-<meta property="og:description" content="1. data structure 208 prefix tree
+<meta property="og:title" content="Leetcode" />
+<meta property="og:description" content="1. data structure 208 prefix tree 211 design add and search data structure very suitable for string find and match, the only question is space complexity. another question is regular match is not suitable for it. the last one is it can be optimized for repeat one?
 2. graph 2.1 topological order 210 change the problem to graph representation, then use topological sort solve the problem.
- title: &ldquo;Leetcode&rdquo; date: 2022-10-25T17:51:46&#43;09:00 draft: true " />
+2.2 depth first search 2." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/post/leetcode/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-10-25T17:51:46+09:00" />
+<meta property="article:modified_time" content="2022-10-25T17:51:46+09:00" />
 
-
-
-<meta itemprop="name" content="">
-<meta itemprop="description" content="1. data structure 208 prefix tree
+<meta itemprop="name" content="Leetcode">
+<meta itemprop="description" content="1. data structure 208 prefix tree 211 design add and search data structure very suitable for string find and match, the only question is space complexity. another question is regular match is not suitable for it. the last one is it can be optimized for repeat one?
 2. graph 2.1 topological order 210 change the problem to graph representation, then use topological sort solve the problem.
- title: &ldquo;Leetcode&rdquo; date: 2022-10-25T17:51:46&#43;09:00 draft: true ">
-
-<meta itemprop="wordCount" content="31">
+2.2 depth first search 2."><meta itemprop="datePublished" content="2022-10-25T17:51:46+09:00" />
+<meta itemprop="dateModified" content="2022-10-25T17:51:46+09:00" />
+<meta itemprop="wordCount" content="87">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="1. data structure 208 prefix tree
+<meta name="twitter:title" content="Leetcode"/>
+<meta name="twitter:description" content="1. data structure 208 prefix tree 211 design add and search data structure very suitable for string find and match, the only question is space complexity. another question is regular match is not suitable for it. the last one is it can be optimized for repeat one?
 2. graph 2.1 topological order 210 change the problem to graph representation, then use topological sort solve the problem.
- title: &ldquo;Leetcode&rdquo; date: 2022-10-25T17:51:46&#43;09:00 draft: true "/>
+2.2 depth first search 2."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -75,7 +75,7 @@
 <body>
   <div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
-    <a href="/" class="logo">Even</a>
+    <a href="/" class="logo">stonejing</a>
   </div>
   <div class="mobile-navbar-icon">
     <span></span>
@@ -104,7 +104,7 @@
   <div class="container" id="mobile-panel">
     <header id="header" class="header">
         <div class="logo-wrapper">
-  <a href="/" class="logo">Even</a>
+  <a href="/" class="logo">stonejing</a>
 </div>
 
 
@@ -133,10 +133,10 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title"></h1>
+      <h1 class="post-title">Leetcode</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 0001-01-01 </span>
+        <span class="post-time"> 2022-10-25 </span>
         
         
       </div>
@@ -153,11 +153,11 @@
         <li><a href="#2-graph">2. graph</a>
           <ul>
             <li><a href="#21-topological-order">2.1 topological order</a></li>
+            <li><a href="#22-depth-first-search">2.2 depth first search</a></li>
+            <li><a href="#23-breadth-first-search">2.3 breadth first search</a></li>
           </ul>
         </li>
-        <li><a href="#draft-true">title: &ldquo;Leetcode&rdquo;
-date: 2022-10-25T17:51:46+09:00
-draft: true</a></li>
+        <li><a href="#3-dynamic-programming">3. Dynamic Programming</a></li>
       </ul>
     </li>
   </ul>
@@ -166,26 +166,32 @@ draft: true</a></li>
 </div>
     <div class="post-content">
       <h2 id="1-data-structure">1. data structure</h2>
-<p><a href="https://leetcode.com/problems/implement-trie-prefix-tree/">208</a> prefix tree</p>
+<p><a href="https://leetcode.com/problems/implement-trie-prefix-tree/">208</a> prefix tree
+<a href="https://leetcode.com/problems/design-add-and-search-words-data-structure/">211</a> design add and search data structure
+very suitable for string find and match, the only question is space complexity.
+another question is regular match is not suitable for it.
+the last one is it can be optimized for repeat one?</p>
 <h2 id="2-graph">2. graph</h2>
 <h3 id="21-topological-order">2.1 topological order</h3>
 <p><a href="https://leetcode.com/problems/course-schedule-ii/">210</a> change the problem to graph representation, then use topological sort solve the problem.</p>
-<hr>
-<h2 id="draft-true">title: &ldquo;Leetcode&rdquo;
-date: 2022-10-25T17:51:46+09:00
-draft: true</h2>
+<h3 id="22-depth-first-search">2.2 depth first search</h3>
+<h3 id="23-breadth-first-search">2.3 breadth first search</h3>
+<p>222 not the best solution, less than O(n)</p>
+<h2 id="3-dynamic-programming">3. Dynamic Programming</h2>
+<p>213
+221</p>
 
     </div>
 
     <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">Author</span>
-    <span class="item-content">olOwOlo</span>
+    <span class="item-content">stonejing</span>
   </p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        0001-01-01
+        2022-10-25
         
     </span>
   </p>
@@ -195,12 +201,16 @@ draft: true</h2>
 <footer class="post-footer">
       
       <nav class="post-nav">
-        <a class="prev" href="/post/hello-world/">
+        <a class="prev" href="/post/data-structure/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Hello World</span>
+            <span class="prev-text nav-default">Data Structure</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
-        
+        <a class="next" href="/post/hello-world/">
+            <span class="next-text nav-default">Hello World</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
       </nav>
     </footer>
   </article>
@@ -216,21 +226,8 @@ draft: true</h2>
 
     <footer id="footer" class="footer">
       <div class="social-links">
-      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
-      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
-      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
-      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
-      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
-      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
-      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
-      <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
-      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
-      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
-      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
-      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
-      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
-      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
-      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
+      <a href="https://www.twitter.com/forgotway" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://www.github.com/stonejing" class="iconfont icon-github" title="github"></a>
   <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
 </div>
 
@@ -249,7 +246,7 @@ draft: true</h2>
   <span class="copyright-year">
     &copy; 
     2017 - 
-    2022<span class="heart"><i class="iconfont icon-heart"></i></span><span>olOwOlo</span>
+    2023<span class="heart"><i class="iconfont icon-heart"></i></span><span>stonejing</span>
   </span>
 </div>
 
